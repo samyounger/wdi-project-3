@@ -55,3 +55,24 @@ body {
 .form-control:hover {
   color: #333;
 }
+
+@media screen and (max-width: 750px) {
+  .col-md-6.form {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -200px;
+    h1 {
+      color: #FFF;
+    }
+    input.form-control {
+      color: #FFF;
+    }
+  }
+  a {
+    text-align: right;
+  }
+}

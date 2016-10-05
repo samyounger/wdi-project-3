@@ -80,3 +80,20 @@
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .novelNew {
+    .picture-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
